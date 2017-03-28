@@ -1,0 +1,20 @@
+<html>
+    <head>
+       
+    </head>
+    <body>
+        Username:<input type="text" id="txtUserName"/>
+        <button onclick="chkUsername()" >Submit</button>
+        <h4 id="msg" style="color:red"></h4>
+
+         <script src="getset.js">
+            </script>
+            <script>
+               function chkUsername(){
+                    obj.user=document.getElementById("txtUserName").value;
+                     document.getElementById("msg").innerHTML=obj.checkUserName();
+               }
+              
+         </script>
+    </body>
+    </html>
